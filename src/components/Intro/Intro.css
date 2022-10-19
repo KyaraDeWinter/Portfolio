@@ -1,0 +1,10 @@
+.Iso-img {
+    width: 100%;
+}
+
+.type {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: black;
+    padding-top: 170px;
+}
