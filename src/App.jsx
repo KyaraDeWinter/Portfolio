@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'components/Navbar/Navbar';
+import Navbar from './components/navbar/Navbar.js';
 
 function App() {
   return (
