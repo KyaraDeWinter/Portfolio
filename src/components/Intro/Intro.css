@@ -5,6 +5,7 @@
 .type {
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
+    font-weight: bold;
     color: black;
     padding-top: 170px;
 }
