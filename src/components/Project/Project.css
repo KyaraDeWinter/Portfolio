@@ -2,8 +2,24 @@
     width: 75%;
 }
 
-.Projects Card {
+.card {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     padding-bottom: 60px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: var(--highlight);
+    border: none;
+}
+
+.cardImg {
+   height: 200px;
+   overflow: hidden;
+   object-fit: cover;
 }

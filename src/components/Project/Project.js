@@ -11,7 +11,19 @@ function Projects() {
             <Row>
                 <Col>
                 <Card>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img className='cardImg' variant="top" src="images/wireframe.png" alt="Wireframe" />
+                    <Card.Body>
+                        <Card.Title>Camping de Maasvallei</Card.Title>
+                        <Card.Text>
+                            <p></p>
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
+                </Col>
+                <Col>
+                <Card>
+                <Card.Img className='cardImg' variant="top" src="images/github.png" alt="Github" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -24,20 +36,7 @@ function Projects() {
                 </Col>
                 <Col>
                 <Card>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-                </Col>
-                <Col>
-                <Card>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img className='cardImg' variant="top" src="images/github.png" alt="Github" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
