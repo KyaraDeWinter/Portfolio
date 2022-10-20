@@ -49,18 +49,6 @@ function Projects() {
             <Row>
                 <Col>
                 <Card>
-                <Card.Img className='cardImg' variant="top" src="images/" alt="" />
-                    <Card.Body>
-                        <Card.Title>Title</Card.Title>
-                        <Card.Text>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </Card.Text>
-                        {/* <Button variant="primary">Lees meer..</Button> */}
-                    </Card.Body>
-                </Card>
-                </Col>
-                <Col>
-                <Card>
                 <Card.Img className='cardImg' variant="top" src="images/vet.jpg" alt="Stage" />
                     <Card.Body>
                         <Card.Title>Ervaring: Stage bij Bureau Vet </Card.Title>
