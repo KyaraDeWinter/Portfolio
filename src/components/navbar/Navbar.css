@@ -1,0 +1,15 @@
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: var(--primary);
+}
+
+.nav-link:hover {
+    color: var(--highlight);
+}
