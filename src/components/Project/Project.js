@@ -11,7 +11,7 @@ function Projects() {
             <Row className='row'>
                 <Col>
                 <Card>
-                <Card.Img className='cardImg' variant="top" src="images/wireframe.png" alt="Wireframe Maasvallei" />
+                <Card.Img className='cardImg' variant="top" src="assets/wireframe.png" alt="Wireframe Maasvallei" />
                     <Card.Body>
                         <Card.Title>Project: Camping de Maasvallei</Card.Title>
                         <Card.Text>
@@ -23,7 +23,7 @@ function Projects() {
                 </Col>
                 <Col>
                 <Card>
-                <Card.Img className='cardImg' variant="top" src="images/bardstale.gif" alt="A Bard's Tale GIF" />
+                <Card.Img className='cardImg' variant="top" src="assets/bardstale.gif" alt="A Bard's Tale GIF" />
                     <Card.Body>
                         <Card.Title>Project: A Bard's Tale</Card.Title>
                         <Card.Text>
@@ -35,7 +35,7 @@ function Projects() {
                 </Col>
                 <Col>
                 <Card>
-                <Card.Img className='cardImg' variant="top" src="images/avisi.png" alt="Wireframe Avisi" />
+                <Card.Img className='cardImg' variant="top" src="assets/avisi.png" alt="Wireframe Avisi" />
                     <Card.Body>
                         <Card.Title>Project: Avisi</Card.Title>
                         <Card.Text>
@@ -49,7 +49,7 @@ function Projects() {
             <Row>
                 <Col>
                     <Card>
-                    <Card.Img className='cardImg' variant="top" src="images/vet.jpg" alt="Stage" />
+                    <Card.Img className='cardImg' variant="top" src="assets/vet.jpg" alt="Stage" />
                         <Card.Body>
                             <Card.Title>Ervaring: Stage bij Bureau Vet </Card.Title>
                             <Card.Text>
@@ -61,7 +61,7 @@ function Projects() {
                 </Col>
                 <Col>
                 <Card>
-                <Card.Img className='cardImg' variant="top" src="images/vet.jpg" alt="Stage" />
+                <Card.Img className='cardImg' variant="top" src="assets/vet.jpg" alt="Stage" />
                     <Card.Body>
                         <Card.Title>Ervaring: Stage bij Bureau Vet </Card.Title>
                         <Card.Text>
@@ -73,7 +73,7 @@ function Projects() {
                 </Col>
                 <Col>
                 <Card>
-                <Card.Img className='cardImg' variant="top" src="images/github.png" alt="Github" />
+                <Card.Img className='cardImg' variant="top" src="assets/github.png" alt="Github" />
                     <Card.Body>
                         <Card.Title>Github Repositories</Card.Title>
                         <Card.Text>

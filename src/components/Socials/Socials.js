@@ -21,6 +21,9 @@ function Social() {
                 <p>ROC Nijmegen, Technovium</p>
                 <p>Woonachtig te Cuijk, Noord-Brabant</p>
                 <p>Email: <a href = "mailto: kyaradewinter@gmail.com">kyaradewinter@gmail.com</a></p>
+                <a href="assets/cv_kyara_de_winter.pdf" download="cv_kyara_de_winter.pdf">
+                  <p>Download Kyara's CV</p>
+                </a>
             </div>
         </Col>
         </Row>
