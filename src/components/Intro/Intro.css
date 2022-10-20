@@ -6,6 +6,6 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
     font-weight: bold;
-    color: black;
+    color: var(--text);
     padding-top: 170px;
 }

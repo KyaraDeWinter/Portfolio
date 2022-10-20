@@ -7,7 +7,6 @@ import Col from 'react-bootstrap/Col';
 
 function Projects() {
   return (
-    <>
         <Container className='Projects'>
             <Row>
                 <Col>
@@ -51,7 +50,6 @@ function Projects() {
                 </Col>
             </Row>
         </Container> 
-    </>
   );
 }
 

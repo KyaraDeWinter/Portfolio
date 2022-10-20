@@ -13,6 +13,13 @@
   }
 }
 
+:root{
+  --primary: #884469;
+  --secundary: #A47E99;
+  --text: black;
+  --highlight: #C92E6E;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

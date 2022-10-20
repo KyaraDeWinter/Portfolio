@@ -1,0 +1,15 @@
+.social {
+    width: 76%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.social a {
+    text-decoration: none;
+    color:  var(--text);
+}
+
+.social a:hover {
+    text-decoration: none;
+    color:  var(--highlight);
+}
