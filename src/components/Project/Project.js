@@ -27,7 +27,7 @@ function Projects() {
                     <Card.Body>
                         <Card.Title>Project: A Bard's Tale</Card.Title>
                         <Card.Text>
-                            <p>Met JavaScript heb ik een eenvoudig klik-spel gemaakt waar je kan kiezen tussen verschillende scenarios. Wanneer je een verkeerde keuze maakt looped het terug naar het startscherm.</p>
+                            <p>Met JavaScript heb ik een eenvoudig klik-spel gemaakt waar je kan kiezen tussen verschillende scenarios. Er wordt gebruik gemaakt van textNodes waardoor er gemakkelijk van verhaallijn verwisselt kan worden vanwege de id’s.</p>
                         </Card.Text>
                         {/* <Button variant="primary">Lees meer..</Button> */}
                     </Card.Body>
@@ -49,11 +49,11 @@ function Projects() {
             <Row>
                 <Col>
                     <Card>
-                    <Card.Img className='cardImg' variant="top" src="assets/vet.jpg" alt="Stage" />
+                    <Card.Img className='cardImg' variant="top" src="assets/crud.png" alt="Stage" />
                         <Card.Body>
-                            <Card.Title>Ervaring: Stage bij Bureau Vet </Card.Title>
+                            <Card.Title>Project: PHP CRUD</Card.Title>
                             <Card.Text>
-                                <p>Voor een half jaar heb ik mee mogen lopen bij het in Nijmegen gevestigde bedrijf Bureau Vet. Hier heb ik gewerkt met bijvoorbeeld de programma’s van Adobe zoals Illustrator en Indesign. Ik heb ook ervaring op mogen doen met het maken van een WordPress website en het up to date houden van plugins.</p>
+                                <p>De basis van een CRUD-systeem heb ik al meerdere keren toegepast in verschillende projecten. Een voorbeeld hiervan is het project Internship Japan waar de functionaliteiten zoals login, tonen van accountgegevens of het bijwerken van data. Wat niet kan ontbreken is natuurlijk een database connectie waar SQL is gebruikt.</p>
                             </Card.Text>
                             {/* <Button variant="primary">Lees meer..</Button> */}
                         </Card.Body>
