@@ -48,6 +48,18 @@ function Projects() {
             </Row>
             <Row>
                 <Col>
+                    <Card>
+                    <Card.Img className='cardImg' variant="top" src="images/vet.jpg" alt="Stage" />
+                        <Card.Body>
+                            <Card.Title>Ervaring: Stage bij Bureau Vet </Card.Title>
+                            <Card.Text>
+                                <p>Voor een half jaar heb ik mee mogen lopen bij het in Nijmegen gevestigde bedrijf Bureau Vet. Hier heb ik gewerkt met bijvoorbeeld de programma’s van Adobe zoals Illustrator en Indesign. Ik heb ook ervaring op mogen doen met het maken van een WordPress website en het up to date houden van plugins.</p>
+                            </Card.Text>
+                            {/* <Button variant="primary">Lees meer..</Button> */}
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
                 <Card>
                 <Card.Img className='cardImg' variant="top" src="images/vet.jpg" alt="Stage" />
                     <Card.Body>
