@@ -19,7 +19,7 @@ function Social() {
                 <h3>Kyara de Winter</h3>
                 <p>Derdejaars Student Software Developer</p>
                 <p>ROC Nijmegen, Technovium</p>
-                <p>Woonachtig in Cuijk, Noord-Brabant</p>
+                <p>Woonachtig te Cuijk, Noord-Brabant</p>
                 <p>Email: <a href = "mailto: kyaradewinter@gmail.com">kyaradewinter@gmail.com</a></p>
             </div>
         </Col>
