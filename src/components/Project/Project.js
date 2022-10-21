@@ -62,7 +62,7 @@ function Projects() {
                         <Card.Body>
                             <Card.Title>Project: PHP CRUD</Card.Title>
                             <Card.Text>
-                                <p>De basis van een CRUD-systeem heb ik al meerdere keren toegepast in verschillende projecten. Een voorbeeld hiervan is het project Internship Japan waar de functionaliteiten zoals login, tonen van accountgegevens of het bijwerken van data. Wat niet kan ontbreken is natuurlijk een database connectie waar SQL is gebruikt.</p>
+                                <p>De basis van een CRUD-systeem heb ik al meerdere keren toegepast in verschillende projecten. Een voorbeeld hiervan is het project Internship Japan waar de functionaliteiten zoals login, tonen van accountgegevens of het bijwerken van data zijn verwerkt. Wat niet kan ontbreken is natuurlijk een database connectie waar SQL is gebruikt.</p>
                             </Card.Text>
                             <Row className='tags'>
                                 <p className='tag tag-php'>php</p>
