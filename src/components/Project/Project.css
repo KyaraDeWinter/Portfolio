@@ -27,3 +27,60 @@
    overflow: hidden;
    object-fit: cover;
 }
+
+.tags {
+    padding-left: 10px;
+}
+
+.tag {
+    color: white;
+    padding: 3px;    
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 5px;
+}
+
+.tag-design {
+    background-color: var(--primary);
+    width: 65px;
+}
+
+.tag-wireframe {
+    background-color: var(--secundary);
+    width: 95px;
+}
+
+.tag-javascript {
+    background-color: var(--secundary);
+    width: 105px;
+}
+
+.tag-react {
+    background-color: var(--secundary);
+    width: 55px;
+}
+
+.tag-php {
+    background-color: var(--secundary);
+    width: 35px;
+}
+
+.tag-crud {
+    background-color: var(--secundary);
+    width: 45px;
+}
+
+.tag-wordpress {
+    background-color: var(--secundary);
+    width: 95px;
+}
+
+.tag-stage {
+    background-color: var(--secundary);
+    width: 55px;
+}
+
+.tag-github {
+    background-color: var(--secundary);
+    width: 65px;
+}
