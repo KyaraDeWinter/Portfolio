@@ -12,16 +12,6 @@
     height: 500px;
 }
 
-.btn-primary {
-    background-color: var(--primary);
-    border: none;
-}
-
-.btn-primary:hover{
-    background-color: var(--highlight);
-    border: none;
-}
-
 .cardImg {
    height: 170px;
    overflow: hidden;
@@ -34,6 +24,7 @@
 
 .tag {
     color: white;
+    background-color: var(--detail);
     padding: 3px;    
     border-radius: 3px;
     font-family: 'Courier New', Courier, monospace;
@@ -41,51 +32,41 @@
 }
 
 .tag-design {
-    background-color: var(--primary);
     width: 65px;
 }
 
 .tag-wireframe {
-    background-color: var(--secundary);
     width: 95px;
 }
 
 .tag-javascript {
-    background-color: var(--tertiairy);
     width: 105px;
 }
 
 .tag-react {
-    background-color: var(--detail);
     width: 55px;
 }
 
 .tag-php {
-    background-color: var(--primary);
     width: 35px;
 }
 
 .tag-crud {
-    background-color: var(--secundary);
     width: 45px;
 }
 
 .tag-sql {
-    background-color: var(--tertiairy);
     width: 35px;
 }
 
 .tag-wordpress {
-    background-color: var(--detail);
     width: 95px;
 }
 
 .tag-stage {
-    background-color: var(--primary);
     width: 55px;
 }
 
 .tag-github {
-    background-color: var(--secundary);
     width: 65px;
 }

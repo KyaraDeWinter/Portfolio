@@ -9,7 +9,7 @@ function Introduction() {
     <Container>
     <Row>
       <Col sm={5}>
-        <img className='Iso-img' src="assets/iso-room.png" alt="Isometric Room"/>
+        <img className='Iso-img' src="assets/room_nobg.png" alt="Isometric Room"/>
       </Col>
       <Col sm={7} className='type'>
         <Typewriter
