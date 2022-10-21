@@ -14,10 +14,13 @@
 }
 
 :root{
-  --primary: #884469;
-  --secundary: #A47E99;
-  --text: black;
-  --highlight: #C92E6E;
+  --text: #121011;
+  --text_secundary: #ECEDED;
+  --primary: #7A4161;
+  --secundary: #B25F86;
+  --tertiairy: #BF899A;
+  --detail: #8B687D;
+  --grey: #1E1E1E;
 }
 
 .App-header {

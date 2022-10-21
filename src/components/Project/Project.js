@@ -67,6 +67,7 @@ function Projects() {
                             <Row className='tags'>
                                 <p className='tag tag-php'>php</p>
                                 <p className='tag tag-crud'>crud</p>
+                                <p className='tag tag-sql'>sql</p>
                              </Row>
                         </Card.Body>
                     </Card>

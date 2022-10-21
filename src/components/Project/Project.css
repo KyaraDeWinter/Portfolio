@@ -9,7 +9,7 @@
 .card {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
-    height: 470px;
+    height: 500px;
 }
 
 .btn-primary {
@@ -23,7 +23,7 @@
 }
 
 .cardImg {
-   height: 200px;
+   height: 170px;
    overflow: hidden;
    object-fit: cover;
 }
@@ -51,17 +51,17 @@
 }
 
 .tag-javascript {
-    background-color: var(--secundary);
+    background-color: var(--tertiairy);
     width: 105px;
 }
 
 .tag-react {
-    background-color: var(--secundary);
+    background-color: var(--detail);
     width: 55px;
 }
 
 .tag-php {
-    background-color: var(--secundary);
+    background-color: var(--primary);
     width: 35px;
 }
 
@@ -70,13 +70,18 @@
     width: 45px;
 }
 
+.tag-sql {
+    background-color: var(--tertiairy);
+    width: 35px;
+}
+
 .tag-wordpress {
-    background-color: var(--secundary);
+    background-color: var(--detail);
     width: 95px;
 }
 
 .tag-stage {
-    background-color: var(--secundary);
+    background-color: var(--primary);
     width: 55px;
 }
 

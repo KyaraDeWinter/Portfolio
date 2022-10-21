@@ -2,6 +2,11 @@ import Container from 'react-bootstrap/Container';
 import './Socials.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { FaGithubSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 
 function Social() {
   return (
@@ -9,9 +14,9 @@ function Social() {
         <Row>
         <Col sm={5}>
             <h3>Social Media</h3>
-            <p><a href="https://www.linkedin.com/in/kyara-de-winter-7919071b0/" rel="noreferrer" target="_blank">Visit LinkedIn</a></p>
-            <p><a href="https://github.com/KyaraDeWinter" rel="noreferrer" target="_blank">Visit GitHub</a></p>
-            <p><a href="https://www.instagram.com/xdewinter/" rel="noreferrer" target="_blank">Visit Instagram</a></p>
+            <p><a href="https://www.linkedin.com/in/kyara-de-winter-7919071b0/" rel="noreferrer" target="_blank"><FaLinkedin className='icon'/>Visit LinkedIn</a></p>
+            <p><a href="https://github.com/KyaraDeWinter" rel="noreferrer" target="_blank"><FaGithubSquare className='icon'/>Visit GitHub</a></p>
+            <p><a href="https://www.instagram.com/xdewinter/" rel="noreferrer" target="_blank"><FaInstagramSquare className='icon'/>Visit Instagram</a></p>
         </Col>
         <Col sm={2}><div class="vl"></div></Col>
         <Col sm={5}>
@@ -20,9 +25,9 @@ function Social() {
                 <p>Derdejaars Student Software Developer</p>
                 <p>ROC Nijmegen, Technovium</p>
                 <p>Woonachtig te Cuijk, Noord-Brabant</p>
-                <p>Email: <a href = "mailto: kyaradewinter@gmail.com">kyaradewinter@gmail.com</a></p>
+                <p><a href = "mailto: kyaradewinter@gmail.com"><FaEnvelope className='icon'/>Email: kyaradewinter@gmail.com</a></p>
                 <a href="assets/cv_kyara_de_winter.pdf" download="cv_kyara_de_winter.pdf">
-                  <p>Download Kyara's CV</p>
+                  <p className='cv'><FaDownload className='icon'/>Download Kyara's CV</p>
                 </a>
             </div>
         </Col>
