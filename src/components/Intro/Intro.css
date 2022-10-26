@@ -1,6 +1,14 @@
+.introduction {
+    width: 75%;
+}
+
 .Iso-img {
     width: 100%;
-    padding: 40px 0px 0px 70px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
 }
 
 .type {
@@ -8,5 +16,13 @@
     font-size: 60px;
     font-weight: bold;
     color: var(--text);
-    padding-top: 170px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+
+    .type {
+        margin-bottom: 15px;
+    }
 }

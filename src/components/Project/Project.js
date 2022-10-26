@@ -9,7 +9,7 @@ function Projects() {
   return (
         <Container className='Projects'>
             <Row className='row'>
-                <Col>
+                <Col lg>
                 <Card>
                 <Card.Img className='cardImg' variant="top" src="assets/wireframe.png" alt="Wireframe Maasvallei" />
                     <Card.Body>
@@ -24,7 +24,7 @@ function Projects() {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col>
+                <Col lg>
                 <Card>
                 <Card.Img className='cardImg' variant="top" src="assets/bardstale.gif" alt="A Bard's Tale GIF" />
                     <Card.Body>
@@ -38,7 +38,7 @@ function Projects() {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col>
+                <Col lg>
                 <Card>
                 <Card.Img className='cardImg' variant="top" src="assets/avisi.png" alt="Wireframe Avisi" />
                     <Card.Body>
@@ -56,7 +56,7 @@ function Projects() {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col lg>
                     <Card>
                     <Card.Img className='cardImg' variant="top" src="assets/crud.png" alt="Stage" />
                         <Card.Body>
@@ -72,7 +72,7 @@ function Projects() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col lg>
                 <Card>
                 <Card.Img className='cardImg' variant="top" src="assets/vet.jpg" alt="Stage" />
                     <Card.Body>
@@ -87,7 +87,7 @@ function Projects() {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col>
+                <Col lg>
                 <Card>
                 <Card.Img className='cardImg' variant="top" src="assets/github.png" alt="Github" />
                     <Card.Body>

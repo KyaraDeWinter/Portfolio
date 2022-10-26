@@ -12,14 +12,14 @@ function Social() {
   return (
     <Container className='social'>
         <Row>
-        <Col sm={5}>
+        <Col md={5} className='media'>
             <h3>Social Media</h3>
             <p><a href="https://www.linkedin.com/in/kyara-de-winter-7919071b0/" rel="noreferrer" target="_blank"><FaLinkedin className='icon'/>Visit LinkedIn</a></p>
             <p><a href="https://github.com/KyaraDeWinter" rel="noreferrer" target="_blank"><FaGithubSquare className='icon'/>Visit GitHub</a></p>
             <p><a href="https://www.instagram.com/xdewinter/" rel="noreferrer" target="_blank"><FaInstagramSquare className='icon'/>Visit Instagram</a></p>
         </Col>
-        <Col sm={2}><div class="vl"></div></Col>
-        <Col sm={5}>
+        <Col md={2}><div class="vl"></div></Col>
+        <Col md={5}>
             <div>
                 <h3>Kyara de Winter</h3>
                 <p>Derdejaars Student Software Developer</p>

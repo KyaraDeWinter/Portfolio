@@ -1,5 +1,19 @@
-.about {
-    width: 76%;
-    padding-bottom: 60px;
+.about-body {
+    width: 100vw !important;
     color: var(--text);
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 80px 0px 80px 0px;
+    padding: 5% 13% 5% 13%;
+}
+
+.about {
+
+}
+
+@media screen and (max-width: 765px) {
+
+    .about {
+
+    }    
 }
