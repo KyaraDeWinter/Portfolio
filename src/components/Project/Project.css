@@ -6,6 +6,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     margin-bottom: 20px;
+    min-height: 300px;
 }
 
 .cardImg {
@@ -33,6 +34,14 @@
 
 .tag-wireframe {
     width: 95px;
+}
+
+.tag-business {
+    width: 85px;
+}
+
+.tag-microcontrollers {
+    width: 160px;
 }
 
 .tag-javascript {

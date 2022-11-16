@@ -22,8 +22,8 @@ function Social() {
         <Col md={5}>
             <div>
                 <h3>Kyara de Winter</h3>
-                <p>Derdejaars Student Software Developer</p>
-                <p>ROC Nijmegen, Technovium</p>
+                <p>Derdejaars Studente Software Developer</p>
+                <p>Technovium | ROC Nijmegen</p>
                 <p>Woonachtig te Cuijk, Noord-Brabant</p>
                 <p><a href = "mailto: kyaradewinter@gmail.com"><FaEnvelope className='icon'/>Email: kyaradewinter@gmail.com</a></p>
                 <a href="assets/cv_kyara_de_winter.pdf" download="cv_kyara_de_winter.pdf">

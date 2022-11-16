@@ -11,6 +11,40 @@ function Projects() {
             <Row className='row'>
                 <Col lg>
                 <Card>
+                <Card.Img className='cardImg' variant="top" src="assets/aquasens.png" alt="Design Aquasens Landingspage" />
+                    <Card.Body>
+                        <Card.Title>Project: AquaSens</Card.Title>
+                        <Card.Text>
+                            <p>AquaSens is gebaseerd op een voorkomend probleem onder de aquariumhouders: het bijhouden en inzien van bepaalde waarden. Door middel van sensoren die data doorspelen naar een mobile app worden deze in een oogopslag weergegeven. We hebben een eigen website ontworpen en gerealiseerd waarbij we de doelgroep proberen aan te spreken. Door middel van call to actions te gebruiken hopen wij zo de klant te trekken om het product aan te schaffen.</p>
+                        </Card.Text>
+                        <Row className='tags'>
+                            <p className='tag tag-design'>design</p>
+                            <p className='tag tag-business'>business</p>
+                            <p className='tag tag-microcontrollers'>microcontrollers</p>
+                        </Row>
+                    </Card.Body>
+                </Card>
+                </Col>
+                <Col lg>
+                <Card>
+                <Card.Img className='cardImg' variant="top" src="assets/avisi.png" alt="Wireframe Avisi" />
+                    <Card.Body>
+                        <Card.Title>Project: Avisi</Card.Title>
+                        <Card.Text>
+                            <p>Aan het eind van het tweede leerjaar heb ik meegewerkt aan een project vanuit het bedrijf Avisi. Hierin heb ik de rol aangenomen als designer van de webapplicatie. Door kritische vragen te stellen krijg ik een goed beeld over het project en kan ik mij inbeelden in de klant. Ik verwerk dan ook deze bepaalde visie in het design om de beste ervaring voor de klant te bieden. Een duidelijk navigeerbare applicatie is erg belangrijk waar het doel direct zichtbaar is.</p>
+                        </Card.Text>
+                        <Row className='tags'>
+                            <p className='tag tag-design'>design</p>
+                            <p className='tag tag-wireframe'>wireframe</p>
+                            <p className='tag tag-react'>react</p>
+                        </Row>
+                    </Card.Body>
+                </Card>
+                </Col>
+            </Row>
+            <Row className='row'>
+                <Col lg>
+                <Card>
                 <Card.Img className='cardImg' variant="top" src="assets/wireframe.png" alt="Wireframe Maasvallei" />
                     <Card.Body>
                         <Card.Title>Project: Camping de Maasvallei</Card.Title>
@@ -34,22 +68,6 @@ function Projects() {
                         </Card.Text>
                         <Row className='tags'>
                             <p className='tag tag-javascript'>javascript</p>
-                        </Row>
-                    </Card.Body>
-                </Card>
-                </Col>
-                <Col lg>
-                <Card>
-                <Card.Img className='cardImg' variant="top" src="assets/avisi.png" alt="Wireframe Avisi" />
-                    <Card.Body>
-                        <Card.Title>Project: Avisi</Card.Title>
-                        <Card.Text>
-                            <p>Aan het eind van het tweede leerjaar heb ik meegewerkt aan een project vanuit het bedrijf Avisi. Hierin heb ik de rol aangenomen als designer en wanneer dit is voltooid, kan ik aan de slag met de front-end van de applicatie.</p>
-                        </Card.Text>
-                        <Row className='tags'>
-                            <p className='tag tag-design'>design</p>
-                            <p className='tag tag-wireframe'>wireframe</p>
-                            <p className='tag tag-react'>react</p>
                         </Row>
                     </Card.Body>
                 </Card>
@@ -87,13 +105,15 @@ function Projects() {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col lg>
+            </Row>
+            <Row>
+            <Col lg>
                 <Card>
                 <Card.Img className='cardImg' variant="top" src="assets/github.png" alt="Github" />
                     <Card.Body>
                         <Card.Title>Github Repositories</Card.Title>
                         <Card.Text>
-                            <p>Projecten voor programmeervakken worden gedeeld via mijn GitHub account. Ik kan overweg met het werken in GitHub Desktop en terminal commands doordat vele projecten in een samenwerking worden gemaakt met andere leerlingen.</p>
+                            <p>Projecten voor programmeervakken worden gedeeld via mijn GitHub account. Ik kan overweg met het werken in GitHub Desktop en terminal commands doordat vele projecten in een samenwerking worden gemaakt met andere studenten.</p>
                         </Card.Text>
                             <Row className='tags'>
                                 <p className='tag tag-github'>github</p>
